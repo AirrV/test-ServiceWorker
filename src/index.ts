@@ -1,4 +1,4 @@
-function component() {
+function component(): HTMLElement {
   const element = document.createElement('div');
 
   element.innerHTML = 'Hello webpack';
