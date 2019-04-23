@@ -2,9 +2,10 @@
   "name": "test-serviceworker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/AirrV/test-ServiceWorker/issues"
   },
-  "homepage": "https://github.com/AirrV/test-ServiceWorker#readme"
+  "homepage": "https://github.com/AirrV/test-ServiceWorker#readme",
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  }
 }
